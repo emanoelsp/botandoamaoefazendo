@@ -4543,11 +4543,39 @@ textarea.form-control-lg {
 }
 
 .bg-faded {
-  background-color: rgba(200, 100, 200, 0.4);
+  background-color: rgba(200, 100, 200, 0.5);
 }
 
 .p-5 {
   padding: 3rem !important;
+}
+
+
+.intro {
+  position: relative;
+}
+@media (min-width: 992px) {
+  .intro .intro-img {
+    width: 75%;
+    float: right;
+  }
+  .intro .intro-text {
+    left: 0;
+    width: 60%;
+    margin-top: 3rem;
+    position: absolute;
+  }
+  .intro .intro-text .intro-button {
+    width: 100%;
+    left: 0;
+    position: absolute;
+    bottom: -2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .intro .intro-text {
+    width: 45%;
+  }
 }
 
 @media (min-width: 992px) {
